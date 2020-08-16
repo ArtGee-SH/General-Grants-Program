@@ -62,12 +62,12 @@ In the below sections you can find a list of different layers of the Polkadot St
 |-|-|-
 | Desktop Wallets | [AirGap](https://github.com/airgap-it/airgap-wallet), [Sakura](https://github.com/w3finance/sakura)
 | Browser Extensions | [Polkadot{.js}](https://github.com/polkadot-js/extension), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://www.speckleos.io/)  
-| Mobile Wallets| [KodaDot](https://twitter.com/KodaDot), [Lunie](http://lunie.io/), [Polkawallet](https://polkawallet.io/), [Parity Signer](https://github.com/paritytech/parity-signer)  
+| Mobile Wallets| [KodaDot](https://twitter.com/KodaDot), [Lunie](https://github.com/luniehq/lunie), [Polkawallet](https://github.com/polkawallet-io/polkawallet-flutter), [Parity Signer](https://github.com/paritytech/parity-signer)  
 | Web (burner) Wallets| [KodaDot](https://twitter.com/KodaDot)
 | CLI Wallet | [Subwallet](https://github.com/yxf/subwallet)
 | Multisignature Wallets| 
 | Hardware Wallets | [Ledger](https://github.com/ZondaX/ledger-polkadot), [NGRAVE](https://ngrave.io/) 
-| Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/), [Subscan](https://github.com/itering/subscan)
+| Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://polkastats.io/), [Subscan](https://github.com/itering/subscan)| Mempool focused explorer (including parachain transaction)
 | Validator Dashboards | [DotHub](https://github.com/figment-networks/dothub), [Polkacube](https://github.com/hashquark-io), [YieldScan](https://github.com/buidl-labs/YieldScan)
 | Node Explorers | [Polkadot Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
 | Governance Dashboards | [Polkassembly](https://github.com/paritytech/polkassembly)
@@ -77,22 +77,20 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Components | Existing projects | Potentially interesting projects 
 |-|-|-
 | Parachain Dev Kits | [Gantree](https://github.com/flex-dapps)| [Minimal Parachain Dev Kit](https://github.com/w3f/General-Grants-Program/issues/204), tools to create parachains from frameworks used in other ecosystems |
-| Polkadot RPC clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), [C](https://github.com/finoabanking/substrate-c-tool), [Haskell](https://github.com/airalab/hs-web3), [Javascript](https://github.com/polkadot-js/api), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java)*(old)*, [Java](https://github.com/emeraldpay/polkaj)*(new)*, [Rust SCS](https://github.com/scs/substrate-api-client), [Rust Parity](https://github.com/paritytech/substrate-subxt) | [Web3 Compatible API for Substate EVM Chains](https://docs.google.com/document/u/1/d/1LL_uXGvhihaC7928WmWT7yYlThN8c8HI_0u7h-JKlk0/edit?usp=drive_fs&ouid=113079615530164190769)|
-| Easy Runtime Development | [VS Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground) | [AssemblyScript Runtime Generation](https://github.com/w3f/General-Grants-Program/issues/159)|
+| Polkadot API clients | [Go](https://github.com/centrifuge/go-substrate-rpc-client), [.Net](https://github.com/usetech-llc/polkadot_api_dotnet), [C++](https://github.com/usetech-llc/polkadot_api_cpp), [C](https://github.com/finoabanking/substrate-c-tool), [Haskell](https://github.com/airalab/hs-web3), [Javascript](https://github.com/polkadot-js/api), [Substrate API Sidecar - TypeScript](https://github.com/paritytech/substrate-api-sidecar), [Ruby](https://github.com/itering/scale.rb), [Python](https://github.com/polkascan/substrate-interface-api), [Java](https://github.com/polkadot-java)*(old)*, [Java](https://github.com/emeraldpay/polkaj)*(new)*, [Rust SCS](https://github.com/scs/substrate-api-client), [Rust Parity](https://github.com/paritytech/substrate-subxt), [RPC-Ethereum](https://github.com/paritytech/frontier) | |
+| Easy Runtime Development | [VS Code Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground), [Substrate Marketplace VS Code Plugin](https://github.com/paritytech/vscode-substrate), [AssemblyScript Runtime Generation](https://github.com/LimeChain/as-substrate-runtime)| |
 | Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master), [Ink! Remix Plugin](https://github.com/blockchain-it-hr/ink-remix-plugin) 
 | Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics)
 | Smart Contract Languages | [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/)| AssemblyScript, Functional Programming Languages, other languages with developed toolchains |
 | Smart Contract Security |   
-| Easy integration testing |   
-| Performance Testing |  [MixBytes Tank](https://github.com/mixbytes/tank)
-| Chaos/Fuzz Testing |
+| Testing |  [Halva](https://github.com/orgs/halva-suite), [MixBytes Tank](https://github.com/mixbytes/tank)
 
 ### :link: Chains and Modules
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Scalable Transactions | [Plasm](https://github.com/staketechnologies/Plasm), [Celer](https://github.com/celer-network), [Gunclear](https://github.com/GunClear)| roll-ups, DAG-based consensus mechanisms, side chains |
-| Bridges |   [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-codes), [POA <> Substrate](https://github.com/paritytech/parity-bridge), [Substrate <> Ethereum DAI Bridge](https://github.com/akropolisio/POC-polkadai-bridge), [Substrate <> Substrate Bridge](https://github.com/paritytech/substrate-bridge-relay), [BTC by ChainX](https://github.com/chainx-org/ChainX)| ZCash, Ethereum, Tendermint | 
+| Bridges |   [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-finance), [POA <> Substrate](https://github.com/paritytech/parity-bridge), [Substrate <> Ethereum DAI Bridge](https://github.com/akropolisio/POC-polkadai-bridge), [Substrate <> Substrate Bridge](https://github.com/paritytech/substrate-bridge-relay), [BTC by ChainX](https://github.com/chainx-org/ChainX)| ZCash, Ethereum, Tendermint | 
 | Privacy | [ZeroChain](https://github.com/LayerXcom/zero-chain), [pLibra (Phala Network)](https://github.com/phala-network) 
 | Off-Chain | [substraTEE](https://github.com/scs/substraTEE)
 | Financial Chains | [Katal Chain](https://github.com/katalchain), [Laminar Chain](https://github.com/laminar-protocol/laminar-chain), [Acala](https://acala.network/), [Centrifuge](https://github.com/centrifuge/), [Stafi](https://github.com/stafiprotocol/stafi-node), [Bandot](https://github.com/bandotorg/Bandot), [Definex](https://github.com/y2labs-0sh) 
@@ -129,15 +127,16 @@ In the below sections you can find a list of different layers of the Polkadot St
 |-|-|-
 | Secure validator setup | [Trutzone-based HSM](https://github.com/ZondaX)  
 | High availability setup | [Archipel](https://github.com/luguslabs/archipel)
+| Load Balanced Endpoints | [terragrunt-polkadot](https://github.com/insight-w3f/terragrunt-polkadot)
 | Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo), [Avado](https://github.com/AvadoDServer/AVADO-DNP-Polkadot-custom) 
 | Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3)   
-| Validator payout management | | [Bäckerei](https://github.com/cryptiumlabs/backerei) - Automated reward payment & account management for Tezos bakers
+| Validator payout management | [Substrate validator auto payout](https://github.com/Colm3na/substrate-auto-payout) | 
 
 ### :black_nib: Signatures
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| SR25519 | [C](https://github.com/usetech-llc/sr25519), [C#](https://github.com/usetech-llc/sr25519_dotnet)
+| SR25519 | [rust](https://github.com/w3f/schnorrkel), [C](https://github.com/usetech-llc/sr25519), [C#](https://github.com/usetech-llc/sr25519_dotnet), [java](https://github.com/debuggor/schnorrkel-java)
 | Easy multisig scheme | 
 | Validator HSMs| |
 | Validator HSM-like solutions|

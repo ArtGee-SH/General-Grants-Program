@@ -12,6 +12,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Wave 4 - Fourth Quarter 2019](#wave-4)
 - [Wave 5 - First Quarter 2020](#wave-5)
 - [Wave 6 - Second Quarter 2020](#wave-6)
+- [Wave 7 - Third Quarter 2020](#wave-7)
 
 ## Wave 1
 -   [ChainSafe](https://chainsafe.io/) - Polkadot Runtime Environment in Go (via an RFP) ([GitHub](https://github.com/ChainSafeSystems/gossamer))
@@ -84,7 +85,7 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Chain Security](https://chainsecurity.com/) - Tool for validating correctness of Polkadot runtimes ([GitHub](https://github.com/ChainSecurity))
 
 ## Wave 5
-- [Bifrost](https://bifrost.codes/) - EOS interoperable bridge ([GitHub](https://github.com/bifrost-codes))
+- [Bifrost](https://bifrost.finance/) - EOS interoperable bridge ([GitHub](https://github.com/bifrost-finance))
 - [Entropy Labs](https://entropylabs.hk) - A toolkit for building and deploying applications with substrate
 - [Papers GmbH](https://airgap.it) - AirGap - Desktop (+mobile) wallet for Polkadot ([GitHub](https://github.com/airgap-it))
 - [Stake Technologies](https://stake.co.jp/) - Plasm Chain + OVM Implementation ([GitHub](https://github.com/staketechnologies/))
@@ -132,8 +133,8 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Crust Network](https://crust.network/) - Incentive layer protocol for decentralized storage ([GitHub](https://github.com/crustio))
 - [ETCDEV](https://emeraldpay.io/) - Polkadot Java Client ([GitHub](https://github.com/emeraldpay))
 - [Zondax](http://zondax.ch/) - Ledger app for Polkadot/Kusama Phase 2 ([GitHub](https://github.com/ZondaX/ledger-polkadot))
-- [Soramitsu](https://soramitsu.co.jp/) - Polkaswap - “Uniswap” for the Polkadot ecosystem ([GitHub](https://github.com/sora-xor/polkaswap-web))
-- [LimeChain](https://github.com/LimeChain) - AssemblyScript SCALE Codec ([GitHub](https://github.com/LimeChain))
+- [Soramitsu](https://soramitsu.co.jp/) - Hyperledger Iroha Bridge ([GitHub](https://github.com/sora-xor/polkaswap-web))
+- [LimeChain](https://github.com/LimeChain) - AssemblyScript SCALE Codec ([GitHub](https://github.com/LimeChain/as-scale-codec))
 - [Insight](https://insightfellows.com/) - Load Balanced Endpoints ([GitHub](https://github.com/insight-infrastructure))
 - [Ethworks](https://ethworks.io/) - Polkadot.{js} Desktop Application ([GitHub](https://github.com/EthWorks/))
 - [Usetech](http://usetech.com/blockchain.html) - NFT Tracking Module ([GitHub](https://github.com/usetech-llc/nft_parachain))
@@ -148,3 +149,18 @@ This page gives an overview of accepted grants and a link to their GitHubs. Keep
 - [Laminar One](https://laminar.one/) - Reusable Libraries: Runtime Modules + Monitoring Framework ([GitHub](https://github.com/open-web3-stack))
 - [Faber](https://github.com/yxf) - Subwallet: CLI wallet for Polkadot/Substrate ([GitHub](https://github.com/yxf/subwallet))
 - [Equilibrium](https://equilibrium.co/) - offchain::ipfs ([GitHub](https://github.com/eqlabs))
+- [Snowfork](http://www.snowfork.com/) - Ethereum Bridge ([GitHub](https://github.com/snowfork))
+- [Lunie](http://lunie.io/) - Lunie Governance integration ([GitHub](https://github.com/luniehq/lunie))
+- [LimeChain](https://github.com/LimeChain) - AssemblyScript Runtime ([GitHub](https://github.com/LimeChain))
+- [MVP Workshop](https://mvpworkshop.co/) - Substrate startkit GUI (marketplace for substrate pallets) ([GitHub](https://github.com/MVPWorkshop))
+- [P2P](https://p2p.org/) - Multiblockchain ELT ([GitHub](https://github.com/p2p-org/))
+- [FlexDapps](https://flexdapps.com/) - Gantree Phase 4 ([GitHub](https://github.com/flex-dapps))
+- [Zondax](http://zondax.ch/) - Ledgeracio: A command-line tool and Ledger app designed for staking operations ([GitHub](https://github.com/paritytech/ledgeracio))
+- [Dipole Tech](https://www.dipole.tech) - Dipole Oracle: Distributed energy resource management ([GitHub](https://github.com/DipoleTech/dipole-oracle))
+
+## Wave 7
+- [Halva](https://github.com/halva-suite) - A toolchain for improving the experience of developing Decentralized Applications based on Substrate ([GitHub](https://github.com/halva-suite))
+- [Subscan](subscan.io) - Substrate explorer ([GitHub](https://github.com/itering/subscan))
+- [t3rn](https://github.com/t3rn/t3rn) - A protocol for blockchain interoperability ([GitHub](https://github.com/t3rn/t3rn))
+- [Stake Technologies](https://stake.co.jp/) - Hardware ECDSA for Polkadot JS ([GitHub](https://github.com/polkadot-js))
+- [Protofire](https://protofire.io/) - Failover mechanism for validators upgrade ([GitHub](https://github.com/protofire))
